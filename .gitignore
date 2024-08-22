@@ -23,17 +23,36 @@
 hs_err_pid*
 replay_pid*
 
-# Ignore .vscode directory
-.vscode/
-
-# Ignore IntelliJ IDEA project files
-.idea/
-
-# Ignore OS-specific files
-.DS_Store          # macOS
-Thumbs.db          # Windows
-
-# Ignore Maven and Gradle build directories
-target/
-*.iml
 HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
